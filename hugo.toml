@@ -1,0 +1,19 @@
+baseURL = 'https://coderdojobrighton.github.io/python-burgers-games'
+title = 'Burgers Game'
+theme = "hugo-book"
+
+[markup]
+[markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+
+
+# See details at https://github.com/alex-shpak/hugo-book
+[params]
+    BookTheme = 'light'
+    BookToC = false
+    BookSearch = false
+    BookComments = false
+    xBookLogo = "favicon.png"
+    BookSection = 'docs'
